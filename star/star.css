@@ -1,0 +1,15 @@
+.star {
+  display: inline-block;
+  opacity: 0.3;
+  cursor: pointer;
+  font-size: 5rem;
+  padding-inline: 0.5rem;
+}
+
+.active {
+  opacity: 1;
+}
+
+.star-widget {
+  display: flex;
+}

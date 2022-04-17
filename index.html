@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="star-widget" id="star-widget"></div>
+    <br />
+    <form id="form" action="">
+      <div>
+        <label for="name">Name</label>
+        <input required id="name" name="name" />
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input min="18" required type="number" id="age" name="age" />
+      </div>
+      <div>
+        <div>Gender</div>
+        <label for="gender-male">male</label>
+        <input required type="radio" id="gender-male" name="gender" />
+        <label for="gender-male">female</label>
+        <input required type="radio" id="gender-female" name="gender" />
+      </div>
+      <div>
+        <label for="t-and-ds">I agree with T&Ds</label>
+        <input required type="checkbox" id="t-and-ds" name="t-and-ds" />
+      </div>
+
+      <div>
+        <label for="email">I agree with T&Ds</label>
+        <input required type="email" id="email" name="email" />
+      </div>
+      <button id="form-submit">submit</button>
+    </form>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
